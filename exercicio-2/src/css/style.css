@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs {
+    max-width: 655px;
+    min-height: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 60px 37px 60px 228px;
+    background-color: #FCFCFC;
+    border-radius: 21px;
+    position: relative;
+}
+
+.faqs::before {
+    content: url(../images/imagem.png);
+    position: absolute;
+    right: 467px;
+    bottom: 21px;
+}
+
+.faqs .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.faq {
+    width: 390px;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.faq:last-child {
+    border-style: none;
+}
+
+.faq .painel-faq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .painel-faq .faq-title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    width: 90%;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.faq .painel-faq .faq-title:hover {
+    color: coral;
+}
+
+.faq .painel-faq .setas {
+    position: relative;
+}
+
+.faq .painel-faq .setas .imagem-seta-fechada,
+.faq .painel-faq .setas .imagem-seta-aberta {
+    width: 15px;
+    height: 9px;
+}
+
+.faq .painel-faq .setas .imagem-seta-aberta {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.faq .painel-faq .faq-description {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.esconder {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+
+
+
+

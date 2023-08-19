@@ -1,0 +1,21 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.preto {
+    background-color: black;
+}
+
+.azul {
+    background-color: blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    align-self: flex-start;
+}

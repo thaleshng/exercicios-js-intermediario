@@ -1,0 +1,17 @@
+.quadrado-azul {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.quadrado-vermelho {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.quadrado-amarelo {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
